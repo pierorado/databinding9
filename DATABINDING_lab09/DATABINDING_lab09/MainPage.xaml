@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DATABINDING_lab09.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome CLASE DATABINDING 08!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="Item1" Text="BindingModelDemo"/>
+        <Button x:Name="Item2" Text="ListViewDemo"/>
+        <Button x:Name="Item3" Text="PickerDemo"/>
+        <Button x:Name="Item4" Text="ViewToViewDemo"/>
+        
+    </StackLayout>
+
+</ContentPage>
